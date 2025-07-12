@@ -75,7 +75,7 @@ const Navbar = ({ setShowLogin }) => {
         <div className='flex max-sm:flex-col items-start sm:items-center gap-6 mt-4 sm:mt-0'> {/* Responsive margin-top */}
           <button 
             onClick={() => { navigate('/owner'); setOpen(false); }} 
-            className='cursor-pointer text-gray-700 hover:text-[var(--color-primary)] font-medium transition-colors duration-200'
+            className='cursor-pointer text-gray-700 hover:text-[var(--color-primary)] font-medium transition-colors duration-200 hidden'
           >
             Dashboard
           </button>
